@@ -6,6 +6,7 @@
   "types": "./dist/index.d.ts",
     "scripts": {
     "build": "tsc",
+    "start": "./examples/realm.js",
     "watch": "tsc --watch",
     "lint": "eslint --ignore-path .gitignore .",
     "fix": "eslint --fix --ignore-path .gitignore ."
